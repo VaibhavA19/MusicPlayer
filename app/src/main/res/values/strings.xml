@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">TestMusicInteractivePlayer</string>
+    <string name="title_activity_offline_try">OfflineActivityTry</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="loading">loading</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_play_lists">PlayLists</string>
+    <string name="title_activity_pedometer">Pedometer</string>
+    <string name="title_activity_track_pedo">TrackPedo</string>
+    <string name="title_activity_login_firebase">LoginFirebase</string>
+</resources>

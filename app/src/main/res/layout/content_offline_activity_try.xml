@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/cLayout"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.codingblocks.VaibhavAlreja.testmusicinteractiveplayer.com.codingblocks.VaibhavAlreja.MusicPlayer.OfflineActivityTry"
+    tools:showIn="@layout/app_bar_offline_activity_try">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="10">
+
+        <ListView
+            android:layout_margin="7dp"
+            android:id="@+id/lvTrackList"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="9"></ListView>
+        <!--<android.support.v7.widget.RecyclerView
+            android:id="@+id/rvTrackList"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="9">
+
+        </android.support.v7.widget.RecyclerView>-->
+
+        <TextView
+            android:id="@+id/tvTotalSongs"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="bottom"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="Total Songs : "
+            android:textAllCaps="true"
+            android:textSize="30dp"
+            android:textStyle="italic" />
+        />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

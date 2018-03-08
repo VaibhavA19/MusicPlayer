@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/images"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.codingblocks.VaibhavAlreja.testmusicinteractiveplayer.com.codingblocks.VaibhavAlreja.MusicPlayer.Pedometer"
+    tools:showIn="@layout/activity_pedometer">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="70dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginTop="170dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/steps"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:gravity="center"
+            android:text="0"
+            android:textColor="@android:color/background_light"
+            android:textSize="65sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:textColor="@android:color/background_light"
+            android:text="Steps"
+            android:textSize="25sp" />
+
+        <ToggleButton
+            android:id="@+id/btnPedo"
+            android:shadowColor="@color/red"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textOff="START"
+            android:textOn="END" />
+        <TextView
+            android:id="@+id/dist"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textColor="@color/cardview_light_background"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="0"/>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

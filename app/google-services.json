@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "699061717649",
+    "firebase_url": "https://fbsetry.firebaseio.com",
+    "project_id": "fbsetry",
+    "storage_bucket": "fbsetry.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:699061717649:android:d6ed4e4cf4addaf6",
+        "android_client_info": {
+          "package_name": "com.example.itcontroller.fbsetry"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "699061717649-0f5hh2f2f1i6emqmqur5gou7jt161qvl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.itcontroller.fbsetry",
+            "certificate_hash": "6dba5f1128d2ff1a88f5e8f7d318359347d38377"
+          }
+        },
+        {
+          "client_id": "699061717649-qlc7cq3qd4hkiulloashhn8pba1kvqgq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2xBEz3D7gbnH5JrowYbFd1yaJ-Gt6u0I"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "699061717649-qlc7cq3qd4hkiulloashhn8pba1kvqgq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:699061717649:android:7095564f50d23103",
+        "android_client_info": {
+          "package_name": "com.codingblocks.shivank.testmusicinteractiveplayer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "699061717649-e25iha552sqkjsp4vdt35jdf4edun3ck.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.codingblocks.shivank.testmusicinteractiveplayer",
+            "certificate_hash": "6dba5f1128d2ff1a88f5e8f7d318359347d38377"
+          }
+        },
+        {
+          "client_id": "699061717649-qlc7cq3qd4hkiulloashhn8pba1kvqgq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2xBEz3D7gbnH5JrowYbFd1yaJ-Gt6u0I"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "699061717649-qlc7cq3qd4hkiulloashhn8pba1kvqgq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

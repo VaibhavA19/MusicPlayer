@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:title="sort by">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/sortbydu"
+                    app:showAsAction="never"
+                    android:title="Duration" />
+                <item
+                    android:id="@+id/sortbyname"
+                    app:showAsAction="never"
+                    android:title="Name" />
+            </group>
+        </menu>
+    </item>
+</menu>
