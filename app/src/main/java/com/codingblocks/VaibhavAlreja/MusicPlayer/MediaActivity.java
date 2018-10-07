@@ -23,7 +23,7 @@ import co.mobiwise.library.InteractivePlayerView;
 import co.mobiwise.library.OnActionClickedListener;
 
 public class MediaActivity extends AppCompatActivity implements OnActionClickedListener, GestureDetector.OnGestureListener {
-    public static final String Broadcast_PLAY_NEW_AUDIO = "com.codingblocks.shivank.testmusic";
+    public static final String Broadcast_PLAY_NEW_AUDIO = "com.codingblocks.vaibhavalreja.testmusic";
     ArrayList<Audio> audioList;
     boolean serviceBound = false;
     private MediaPlayerService player;
